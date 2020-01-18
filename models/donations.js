@@ -18,7 +18,6 @@ module.exports = function (sequelize, Datatypes) {
 
     picture: {
       type: Datatypes.STRING,
-      allowNull: false
     },
 
     location:{
@@ -27,5 +26,5 @@ module.exports = function (sequelize, Datatypes) {
     }
   });
 
-  return Volunteer;
+  return Donation;
 };
