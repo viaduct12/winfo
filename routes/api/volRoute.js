@@ -4,7 +4,7 @@ const router = express.Router();
 const db = require("../../models");
 
 router.post("/signup", (req, res, next) => {
-  // console.log(req.body, "inside sign up");
+  console.log(req.body, "inside sign up");
   const newVolunteer = {
     email: req.body.email,
     firstName: req.body.firstName,
